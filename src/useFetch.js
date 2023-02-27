@@ -17,3 +17,5 @@ export const useFetch = (uri) => {
   }, [uri]);
   return { loading, data, error };
 };
+
+//const {loading,data,error}=useFetch("api/getUsers")
